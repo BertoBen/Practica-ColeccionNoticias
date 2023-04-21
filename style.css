@@ -1,0 +1,35 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, rgb(252, 204, 212), rgb(211, 136, 226));
+    margin-left: 80px;
+}
+
+.image {
+    width: 280px;
+}
+
+article {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color:rgba(238, 238, 238, 0.911);
+    margin: 50px 10px;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 320px;
+}
+
+article:hover {
+    box-shadow: 5px 5px 10px rgba(115, 116, 115, 0.911);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    max-width: 250px;
+}
+
+time {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+}
